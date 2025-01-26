@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -22,7 +23,8 @@
         android:text="Email:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="259dp" />
+        tools:layout_editor_absoluteY="259dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -31,7 +33,8 @@
         android:text="¿Asistiras al evento?"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="353dp" />
+        tools:layout_editor_absoluteY="353dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,14 +57,17 @@
         android:text="Nombre:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="148dp" />
+        tools:layout_editor_absoluteY="148dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:hint="Nombre"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -69,7 +75,8 @@
         android:layout_height="wrap_content"
         android:text="No"
         tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="394dp" />
+        tools:layout_editor_absoluteY="394dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -77,7 +84,8 @@
         android:layout_height="wrap_content"
         android:text="Si"
         tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="394dp" />
+        tools:layout_editor_absoluteY="394dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -86,6 +94,7 @@
         android:text="Inscribirse"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="461dp" />
+        tools:layout_editor_absoluteY="461dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
